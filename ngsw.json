@@ -1,0 +1,109 @@
+{
+  "configVersion": 1,
+  "timestamp": 1639387992240,
+  "index": "https://fortune710.github.io/restaurant/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://fortune710.github.io/restaurant/favicon.ico",
+        "https://fortune710.github.io/restaurant/index.html",
+        "https://fortune710.github.io/restaurant/main.1ac6341c97d9e162f720.js",
+        "https://fortune710.github.io/restaurant/manifest.webmanifest",
+        "https://fortune710.github.io/restaurant/polyfills.a284e576d19f21a8b987.js",
+        "https://fortune710.github.io/restaurant/runtime.3f48f0bed43b3294b194.js",
+        "https://fortune710.github.io/restaurant/styles.21c40b4c35b03eb61346.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://fortune710.github.io/restaurant/Nunito-Regular.e4eb7682710458841b10.ttf",
+        "https://fortune710.github.io/restaurant/Nunito-SemiBold.06337b2efe0c0d52bcb6.ttf",
+        "https://fortune710.github.io/restaurant/NunitoSans-Light.7f9eed4cca4d0ae6a772.ttf",
+        "https://fortune710.github.io/restaurant/NunitoSans-Regular.87d9266583abd389ca1f.ttf",
+        "https://fortune710.github.io/restaurant/NunitoSans-SemiBold.662b866576cfea51dd64.ttf",
+        "https://fortune710.github.io/restaurant/OpenSans-Bold.6e27168fc8a5a200a026.ttf",
+        "https://fortune710.github.io/restaurant/OpenSans-Regular.d7d7b8359eeb9cddfba6.ttf",
+        "https://fortune710.github.io/restaurant/assets/fonts/Nunito-Regular.ttf",
+        "https://fortune710.github.io/restaurant/assets/fonts/Nunito-SemiBold.ttf",
+        "https://fortune710.github.io/restaurant/assets/fonts/NunitoSans-Light.ttf",
+        "https://fortune710.github.io/restaurant/assets/fonts/NunitoSans-Regular.ttf",
+        "https://fortune710.github.io/restaurant/assets/fonts/NunitoSans-SemiBold.ttf",
+        "https://fortune710.github.io/restaurant/assets/fonts/OpenSans-Bold.ttf",
+        "https://fortune710.github.io/restaurant/assets/fonts/OpenSans-Regular.ttf",
+        "https://fortune710.github.io/restaurant/assets/icons/icon-128x128.png",
+        "https://fortune710.github.io/restaurant/assets/icons/icon-144x144.png",
+        "https://fortune710.github.io/restaurant/assets/icons/icon-152x152.png",
+        "https://fortune710.github.io/restaurant/assets/icons/icon-192x192.png",
+        "https://fortune710.github.io/restaurant/assets/icons/icon-384x384.png",
+        "https://fortune710.github.io/restaurant/assets/icons/icon-512x512.png",
+        "https://fortune710.github.io/restaurant/assets/icons/icon-72x72.png",
+        "https://fortune710.github.io/restaurant/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://fortune710.github.io/restaurant/Nunito-Regular.e4eb7682710458841b10.ttf": "07822103331d2ebc7756a0746d8f34a7210a68ed",
+    "https://fortune710.github.io/restaurant/Nunito-SemiBold.06337b2efe0c0d52bcb6.ttf": "91ab95e4bfedccb234e05305eeb2de76e5f5f66a",
+    "https://fortune710.github.io/restaurant/NunitoSans-Light.7f9eed4cca4d0ae6a772.ttf": "3a09593f6843696130290ee0602c73c56d55a278",
+    "https://fortune710.github.io/restaurant/NunitoSans-Regular.87d9266583abd389ca1f.ttf": "07b4c2b2a3db6c1b5b54b9b3c46cb713d65d9d63",
+    "https://fortune710.github.io/restaurant/NunitoSans-SemiBold.662b866576cfea51dd64.ttf": "b83505912d818c983a5afdaf3555bd6a6b2595a1",
+    "https://fortune710.github.io/restaurant/OpenSans-Bold.6e27168fc8a5a200a026.ttf": "b7f844e3fbc592719750956a7e9a19f0ede62c78",
+    "https://fortune710.github.io/restaurant/OpenSans-Regular.d7d7b8359eeb9cddfba6.ttf": "b334209f43426374b709e42e3185dc46478a96ba",
+    "https://fortune710.github.io/restaurant/assets/fonts/Nunito-Regular.ttf": "07822103331d2ebc7756a0746d8f34a7210a68ed",
+    "https://fortune710.github.io/restaurant/assets/fonts/Nunito-SemiBold.ttf": "91ab95e4bfedccb234e05305eeb2de76e5f5f66a",
+    "https://fortune710.github.io/restaurant/assets/fonts/NunitoSans-Light.ttf": "3a09593f6843696130290ee0602c73c56d55a278",
+    "https://fortune710.github.io/restaurant/assets/fonts/NunitoSans-Regular.ttf": "07b4c2b2a3db6c1b5b54b9b3c46cb713d65d9d63",
+    "https://fortune710.github.io/restaurant/assets/fonts/NunitoSans-SemiBold.ttf": "b83505912d818c983a5afdaf3555bd6a6b2595a1",
+    "https://fortune710.github.io/restaurant/assets/fonts/OpenSans-Bold.ttf": "b7f844e3fbc592719750956a7e9a19f0ede62c78",
+    "https://fortune710.github.io/restaurant/assets/fonts/OpenSans-Regular.ttf": "b334209f43426374b709e42e3185dc46478a96ba",
+    "https://fortune710.github.io/restaurant/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://fortune710.github.io/restaurant/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://fortune710.github.io/restaurant/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://fortune710.github.io/restaurant/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://fortune710.github.io/restaurant/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://fortune710.github.io/restaurant/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://fortune710.github.io/restaurant/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://fortune710.github.io/restaurant/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://fortune710.github.io/restaurant/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://fortune710.github.io/restaurant/index.html": "ce1dc38b8f1e6c2c4b2e891406bc4d97b55bb59c",
+    "https://fortune710.github.io/restaurant/main.1ac6341c97d9e162f720.js": "a3151e539f594952aad89a0006c30b4077843195",
+    "https://fortune710.github.io/restaurant/manifest.webmanifest": "643ab40efc820ab5c5bdb51f6a33988e155386e6",
+    "https://fortune710.github.io/restaurant/polyfills.a284e576d19f21a8b987.js": "8e81027ed4339b7fbb793c9ac1a86a2987d933b2",
+    "https://fortune710.github.io/restaurant/runtime.3f48f0bed43b3294b194.js": "7786ad61d600bef6c398b30c65de2766fdd53e6e",
+    "https://fortune710.github.io/restaurant/styles.21c40b4c35b03eb61346.css": "5d40a5975b98e0345be0e44d4a316b4470f75c3c"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
