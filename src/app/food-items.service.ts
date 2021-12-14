@@ -25,7 +25,7 @@ export class FoodItemsService {
       name: 'Full Burger with quarter ounce fries',
       description:`Some see it as just beef with bread, but we see it as a means of communicating love
       to your taste buds, because they deserve it.`,
-      url:'../../assets/images/burger.jpg',
+      url:'../assets/images/burger.jpg',
       price: 3000,
       calories: 954,
       category: 'lunch',
