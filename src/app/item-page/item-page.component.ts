@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { faCartPlus, faShoppingBag } from '@fortawesome/free-solid-svg-icons';
+import { faCartPlus, faShoppingBag, faBookmark } from '@fortawesome/free-solid-svg-icons';
 import { FoodItemsService } from '../food-items.service';
 import { FoodItem } from '../interfaces/food-item';
 
@@ -11,8 +11,16 @@ import { FoodItem } from '../interfaces/food-item';
 export class ItemPageComponent implements OnInit {
   cart = faCartPlus;
   bag = faShoppingBag;
+  save = faBookmark;
+
   selectedItem: any = {};
   alsoSearched:FoodItem[] = [];
+
+  word = "Add to Cart";
+
+  changeWord(){
+    this.word == 'Add to Cart'? this.word = 'Added to Cart' : this.word= 'Add to Cart';
+  }
 
   constructor(private foodItemsService: FoodItemsService) { 
     this.selectedItem = this.foodItemsService.buyNowItem;

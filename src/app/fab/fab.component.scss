@@ -1,27 +1,50 @@
-.fab{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 45px;
-    aspect-ratio: 1;
-    color: #fff;
-    z-index: 10;
-    position: static;
-    margin-left: auto;
-}
-
 .popup{
     width: 100%;
-    position: absolute;
-    top: 90%;
-    height: 60px;
-    border-radius: 7px 0;
-    -webkit-border-radius: 7px 0;
-    -moz-border-radius: 7px 0;
-    -ms-border-radius: 7px 0;
-    -o-border-radius: 7px 0;
-    box-shadow: 2px 2px 1px 5px #525252;
+    position: fixed;
+    bottom: -1px;
+    background: var(--light-theme);
+    color:#091327; 
+    height: 110px;
+    border-radius: 15px 15px 0 0;
+    -webkit-border-radius: 15px 15px 0 0;
+    -moz-border-radius: 15px 15px 0 0;
+    -ms-border-radius: 15px 15px 0 0;
+    -o-border-radius: 15px 15px 0 0;
+    box-shadow: -1px 0px 5px 1px #a5a5a5;
     padding-top: 10px;
+    margin: 5px auto;
+    gap: 0.1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.notch{
+    height: 5px;
+    width: 30px;
+    border-radius: 5px ;
+    -webkit-border-radius: 5px ;
+    -moz-border-radius: 5px ;
+    -ms-border-radius: 5px ;
+    -o-border-radius: 5px ;
+    background-color: #8d8d8d;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+
+}
+
+span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+
+    fa-icon{
+        font-size: 20px;
+    }
 }
 
 .bottom{
@@ -41,17 +64,23 @@
 
 }
 
-@media screen and (min-width: 768px){
-    .fab{
+@media screen and (min-width: 500px){
+    .popup{
         display: none;
     }
 }
 
 @media screen and (prefers-color-scheme: dark) {
-    
+    .popup{
+        background-color: var(--dark-theme-alt);
+        color: #f9f9f9;
+    }
+    .notch{
+        background-color: #f9f9f9;
+    }
     .buttons{
         span{
-            color: var(--orange);
+            color: #f9f9f9;
         }
     }
 }

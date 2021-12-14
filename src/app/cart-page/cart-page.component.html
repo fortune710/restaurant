@@ -2,7 +2,7 @@
 
     <div class="header">
         <h2>Your Cart</h2>
-        <i></i>
+        <fa-icon routerLink="../" [icon]="left"></fa-icon>
     </div>
     <div class="cart-content">
         <div class="payment-delivery">
@@ -14,6 +14,23 @@
                         <h6 class="num">2</h6>
                     </div>
                 </div>
+
+                <div class="input-group" style="gap: 3em;">
+                    <select name="state" style="width:150px;">
+                        <option value="lagos">Lagos</option>
+                        <option value="abuja">Abuja</option>
+                        <option value="kano">Kano</option>
+                    </select>
+
+                    <input id="expand" type="text" placeholder="Town">
+                </div>
+
+                <br>
+                <div class="half-input-group">
+                    <input class="card-num" id="expand" type="text" placeholder="Street Address">
+                    <button class="btn btn-md btn-secondary" id="btn-submit">Change</button>
+                </div>
+
 
             </div>
 
@@ -28,9 +45,11 @@
 
                 <form method="post">
 
-                    <div class="input-group">
-                        <input type="radio" name="payment" id="online">
-                        <label for="online">Pay Online</label>
+                    <div class="input-group" style="@media(max-width: 768px){flex-w}">
+                        <div>
+                            <input type="radio" name="payment" id="online">
+                            <label for="online">Pay Online</label>
+                        </div>
 
                         <input type="radio" name="payment" id="on-delivery">
                         <label for="on-delivery">Pay on Delivery</label>
@@ -40,7 +59,7 @@
                     <input class="card-num" type="text" name="card-num" placeholder="xxxx-xxxx-xxxx-xxxx-xxxx">
                     
                     <div class="input-group">
-                        <div class="input-group">
+                        <div class="input-group" id="timestamp">
                             <div>
                                 <label class="card-details" for="card-month">Month</label><br>
                                 <input type="number" name="card-month" placeholder="MM">
@@ -56,11 +75,12 @@
                             <label class="card-details" for="card-cvv">CVV</label><br>
                             <input type="number" name="card-cvv" id="cvv" placeholder="xxx">
                         </div>
-                        <div>
-                            <button class="btn btn-md btn-secondary" id="btn-submit">abwhvagh</button>
-                        </div>
                     </div>
 
+                    <br>
+                    <div>
+                        <button class="btn btn-md btn-secondary" id="btn-submit">Pay</button>
+                    </div>
                 </form>
             </div>
         </div>
@@ -78,6 +98,12 @@
                 <ul id="cart">
 
                 </ul>
+
+                <div class="total">
+                    <p>Total price:</p>
+
+                    <h2></h2>
+                </div>
             </div>
 
         </div>

@@ -1,17 +1,13 @@
-<div class="popup" *ngIf="popupActive == true">
+<div class="popup">
+    <span class="notch"></span>
     <div class="buttons">
         <span (click)="goHome()">
             <fa-icon [icon]="home"></fa-icon>
+            <p>Home</p>
         </span>
         <span (click)="goProducts()">
             <fa-icon [icon]="basket"></fa-icon>
+            <p>Products</p>
         </span>
     </div>
-    <span class="bottom">
-        <fa-icon [icon]="cross"></fa-icon>
-    </span>
-</div>
-
-<div class="fab" (click)="openPopup()">
-    <fa-icon [icon]="bars"></fa-icon>
 </div>

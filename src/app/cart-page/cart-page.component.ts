@@ -1,12 +1,13 @@
 import { Component, OnInit } from '@angular/core';
+import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import { FoodItemsService } from '../food-items.service';
-
 @Component({
   selector: 'app-cart-page',
   templateUrl: './cart-page.component.html',
   styleUrls: ['./cart-page.component.scss']
 })
 export class CartPageComponent implements OnInit {
+  left = faArrowLeft
   cart: any[] = [];
   totalAmount: number = 0;
 

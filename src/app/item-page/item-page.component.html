@@ -11,7 +11,7 @@
                 <p>{{selectedItem.description}}</p>
             </span>
             
-            <div style="display:flex;width:100%;gap:6em;">
+            <div class="product-info">
                 <span class="detail">
                     <h5>Price per unit</h5>
                     <p>{{selectedItem.price}}</p>
@@ -22,16 +22,18 @@
                 </span>
             </div>
             
-            <div style="display:flex;width:100%;gap:6em;">
-                <button class="btn btn-lg btn-primary">
+            <div class="item-actions">
+                <button class="btn btn-lg btn-primary" (click)="changeWord()">
                     <span>
                         <fa-icon [icon]="cart"></fa-icon>
                     </span>
-                    <h4>Add to Cart</h4>
+                    <h4>{{word}}</h4>
+
+                    <fa-icon *ngIf="word == 'Added to Cart'" style="margin-left: auto;" [icon]="save"></fa-icon>
                 </button>
 
                 <button class="btn btn-lg btn-secondary">
-                    <span>
+                    <span style="background-color: var(--dark-theme) !important;">
                         <fa-icon [icon]="bag"></fa-icon>
                     </span>
                     <h4>Buy Now</h4>

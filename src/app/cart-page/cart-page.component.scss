@@ -1,7 +1,15 @@
+main{
+    padding-top: 20px;
+}
+
 .cart-content{
     display: grid;
     grid-template-columns: 65% 35%;
     height: 500px;
+}
+
+.header{
+    margin-bottom: 20px;
 }
 
 .header h3{
@@ -21,6 +29,7 @@ label{
 
 .container{
     height: 100%;
+    position: relative;
     width: 96%;
     padding: 10px;
     background-color: #fff;
@@ -29,6 +38,21 @@ label{
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+}
+
+.total{
+    margin-top: auto;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    background: var(--dark-theme-alt);
 }
 
 .container-vertical{
@@ -71,8 +95,9 @@ label{
 .input-group{
     display: flex;
     margin: 0.1em 0;
+    gap: 2em;
 }
-input{
+input, select{
     border: 1px solid grey;
     height: 40px;
     padding: 0 10px;
@@ -93,4 +118,75 @@ input{
 #btn-submit{
     height: 40px;
 
+}
+
+.half-input-group{
+    display:flex; gap: 3em;
+}
+
+.total{
+    width: 100%;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+@media (max-width: 768px) {
+    .cart-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .payment-delivery{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input-group{
+        flex-wrap: wrap;
+
+        #expand{
+            width: 100%;
+        }
+    }
+    
+
+    main{
+        width: 90%;
+        padding: 25px 5px;
+    }
+
+    .container {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    #timestamp{
+        flex-wrap: nowrap;
+        gap: 0.5em;
+
+        input{
+            width: 120px;
+        }
+    }
+
+    .card-num{
+        width: 80%;
+    }
+
+    .half-input-group{
+        display: block;
+        input{
+            width: 80%;
+        }
+    }
+}
+
+@media (prefers-color-scheme:dark){
+    input:radio{
+        background-color: var(--orange);
+        color: var(--orange);
+    }
 }
