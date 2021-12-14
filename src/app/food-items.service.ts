@@ -14,7 +14,7 @@ export class FoodItemsService {
         name: 'Classic BBQ Steak with Fries',
         description: `Using the finest beef, girlled and seasoned  to perfection, Steak can’t get any better. With fries by the side, it’s the perfect dish to have after a long day.
         Available for Eat-in and Delivery`,
-        url:'../../assets/images/steak-fries.jpg',
+        url:'../../../../assets/images/steak-fries.jpg',
         addedToCart: false,
         quantity: 1,
         price: 5500,
