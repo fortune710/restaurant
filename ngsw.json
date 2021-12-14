@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1639520899677,
+  "timestamp": 1639521294179,
   "index": "https://fortune710.github.io/restaurant/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "https://fortune710.github.io/restaurant/favicon.ico",
         "https://fortune710.github.io/restaurant/index.html",
-        "https://fortune710.github.io/restaurant/main.af7149c3ec728cf1fcca.js",
+        "https://fortune710.github.io/restaurant/main.a8481111bc19d343ec8c.js",
         "https://fortune710.github.io/restaurant/manifest.webmanifest",
         "https://fortune710.github.io/restaurant/polyfills.a284e576d19f21a8b987.js",
         "https://fortune710.github.io/restaurant/runtime.3f48f0bed43b3294b194.js",
@@ -114,9 +114,9 @@
     "https://fortune710.github.io/restaurant/assets/images/steak-fries.jpg": "faecc2041a68aed6751dee0fbf890e4637827d14",
     "https://fortune710.github.io/restaurant/assets/images/waffles.jpg": "2e4862a03a783498767a85ce3ad336bbff14c82a",
     "https://fortune710.github.io/restaurant/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://fortune710.github.io/restaurant/index.html": "d7adf369b034eb85a9e7f1b224cacb0889818169",
+    "https://fortune710.github.io/restaurant/index.html": "793b8a4ae67d9eba432b223dee489d6e393a17c2",
     "https://fortune710.github.io/restaurant/landing.b2762b4cd2f5ae36b83e.jpg": "74ffeab5a6e213d7f770e88da272e2f6a1b6d3fa",
-    "https://fortune710.github.io/restaurant/main.af7149c3ec728cf1fcca.js": "34eddefaabbf0e096740838181d903c0a20a7cbd",
+    "https://fortune710.github.io/restaurant/main.a8481111bc19d343ec8c.js": "0fd1bf05bc0a21af0bf14165fe5c079b1346b1a9",
     "https://fortune710.github.io/restaurant/man.4945da9c8f4241e960d2.jpg": "955325d6223756d507d51d24a48b6c6679d548c1",
     "https://fortune710.github.io/restaurant/manifest.webmanifest": "643ab40efc820ab5c5bdb51f6a33988e155386e6",
     "https://fortune710.github.io/restaurant/polyfills.a284e576d19f21a8b987.js": "8e81027ed4339b7fbb793c9ac1a86a2987d933b2",
