@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1639387992240,
+  "timestamp": 1639516318348,
   "index": "https://fortune710.github.io/restaurant/index.html",
   "assetGroups": [
     {
@@ -13,11 +13,11 @@
       "urls": [
         "https://fortune710.github.io/restaurant/favicon.ico",
         "https://fortune710.github.io/restaurant/index.html",
-        "https://fortune710.github.io/restaurant/main.1ac6341c97d9e162f720.js",
+        "https://fortune710.github.io/restaurant/main.d44a45213d4a9f402ce6.js",
         "https://fortune710.github.io/restaurant/manifest.webmanifest",
         "https://fortune710.github.io/restaurant/polyfills.a284e576d19f21a8b987.js",
         "https://fortune710.github.io/restaurant/runtime.3f48f0bed43b3294b194.js",
-        "https://fortune710.github.io/restaurant/styles.21c40b4c35b03eb61346.css"
+        "https://fortune710.github.io/restaurant/styles.2be2b212c53a3ba48792.css"
       ],
       "patterns": []
     },
@@ -29,6 +29,7 @@
         "ignoreVary": true
       },
       "urls": [
+        "https://fortune710.github.io/restaurant/IMG_4828.6219c5d890f00c93c11f.jpg",
         "https://fortune710.github.io/restaurant/Nunito-Regular.e4eb7682710458841b10.ttf",
         "https://fortune710.github.io/restaurant/Nunito-SemiBold.06337b2efe0c0d52bcb6.ttf",
         "https://fortune710.github.io/restaurant/NunitoSans-Light.7f9eed4cca4d0ae6a772.ttf",
@@ -50,13 +51,31 @@
         "https://fortune710.github.io/restaurant/assets/icons/icon-384x384.png",
         "https://fortune710.github.io/restaurant/assets/icons/icon-512x512.png",
         "https://fortune710.github.io/restaurant/assets/icons/icon-72x72.png",
-        "https://fortune710.github.io/restaurant/assets/icons/icon-96x96.png"
+        "https://fortune710.github.io/restaurant/assets/icons/icon-96x96.png",
+        "https://fortune710.github.io/restaurant/assets/images/IMG_4828.jpg",
+        "https://fortune710.github.io/restaurant/assets/images/burger.jpg",
+        "https://fortune710.github.io/restaurant/assets/images/card.svg",
+        "https://fortune710.github.io/restaurant/assets/images/chicken-chips.jpg",
+        "https://fortune710.github.io/restaurant/assets/images/cupcake.jpg",
+        "https://fortune710.github.io/restaurant/assets/images/english.jpg",
+        "https://fortune710.github.io/restaurant/assets/images/fast-food.svg",
+        "https://fortune710.github.io/restaurant/assets/images/kitchen-utensils.png",
+        "https://fortune710.github.io/restaurant/assets/images/landing.jpg",
+        "https://fortune710.github.io/restaurant/assets/images/location.svg",
+        "https://fortune710.github.io/restaurant/assets/images/man.jpg",
+        "https://fortune710.github.io/restaurant/assets/images/pancakes.jpg",
+        "https://fortune710.github.io/restaurant/assets/images/pizza.jpg",
+        "https://fortune710.github.io/restaurant/assets/images/steak-fries.jpg",
+        "https://fortune710.github.io/restaurant/assets/images/waffles.jpg",
+        "https://fortune710.github.io/restaurant/landing.b2762b4cd2f5ae36b83e.jpg",
+        "https://fortune710.github.io/restaurant/man.4945da9c8f4241e960d2.jpg"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
+    "https://fortune710.github.io/restaurant/IMG_4828.6219c5d890f00c93c11f.jpg": "f94e9fa1f0e1c844d5c4bdd89da3848da2055d9c",
     "https://fortune710.github.io/restaurant/Nunito-Regular.e4eb7682710458841b10.ttf": "07822103331d2ebc7756a0746d8f34a7210a68ed",
     "https://fortune710.github.io/restaurant/Nunito-SemiBold.06337b2efe0c0d52bcb6.ttf": "91ab95e4bfedccb234e05305eeb2de76e5f5f66a",
     "https://fortune710.github.io/restaurant/NunitoSans-Light.7f9eed4cca4d0ae6a772.ttf": "3a09593f6843696130290ee0602c73c56d55a278",
@@ -79,13 +98,30 @@
     "https://fortune710.github.io/restaurant/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
     "https://fortune710.github.io/restaurant/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "https://fortune710.github.io/restaurant/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://fortune710.github.io/restaurant/assets/images/IMG_4828.jpg": "f94e9fa1f0e1c844d5c4bdd89da3848da2055d9c",
+    "https://fortune710.github.io/restaurant/assets/images/burger.jpg": "7829937d129b2e8104534ff00b188eabe05517c8",
+    "https://fortune710.github.io/restaurant/assets/images/card.svg": "bad108f40342abf9bc927647bdd478bb0ffb708f",
+    "https://fortune710.github.io/restaurant/assets/images/chicken-chips.jpg": "af86edd325fdb726e51697f71b733d4afd52d12a",
+    "https://fortune710.github.io/restaurant/assets/images/cupcake.jpg": "b3f06a765bb67708a6c4a33438309765603fcc26",
+    "https://fortune710.github.io/restaurant/assets/images/english.jpg": "c8ab5c6c494075b501774f9ed9902f4fb411b60b",
+    "https://fortune710.github.io/restaurant/assets/images/fast-food.svg": "9ef476ce435be02e056869dc7385774b49606f09",
+    "https://fortune710.github.io/restaurant/assets/images/kitchen-utensils.png": "2ad1903586aabfc5aa44915a6cf65d91c1e219f7",
+    "https://fortune710.github.io/restaurant/assets/images/landing.jpg": "74ffeab5a6e213d7f770e88da272e2f6a1b6d3fa",
+    "https://fortune710.github.io/restaurant/assets/images/location.svg": "ef5b3e1f73a779624bbc7a28f4da00cb161a8310",
+    "https://fortune710.github.io/restaurant/assets/images/man.jpg": "955325d6223756d507d51d24a48b6c6679d548c1",
+    "https://fortune710.github.io/restaurant/assets/images/pancakes.jpg": "765e992eabbb351f94513fac0456db063e6eaf05",
+    "https://fortune710.github.io/restaurant/assets/images/pizza.jpg": "3f371ad696c432365aa4f7dff3943ed6e1a41de9",
+    "https://fortune710.github.io/restaurant/assets/images/steak-fries.jpg": "faecc2041a68aed6751dee0fbf890e4637827d14",
+    "https://fortune710.github.io/restaurant/assets/images/waffles.jpg": "2e4862a03a783498767a85ce3ad336bbff14c82a",
     "https://fortune710.github.io/restaurant/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://fortune710.github.io/restaurant/index.html": "ce1dc38b8f1e6c2c4b2e891406bc4d97b55bb59c",
-    "https://fortune710.github.io/restaurant/main.1ac6341c97d9e162f720.js": "a3151e539f594952aad89a0006c30b4077843195",
+    "https://fortune710.github.io/restaurant/index.html": "2a9b9efcf5ad45ee672835e9d151344ef49dd7a2",
+    "https://fortune710.github.io/restaurant/landing.b2762b4cd2f5ae36b83e.jpg": "74ffeab5a6e213d7f770e88da272e2f6a1b6d3fa",
+    "https://fortune710.github.io/restaurant/main.d44a45213d4a9f402ce6.js": "c5fa6c220c11b891976b0c5ed4eb2671c4a13fde",
+    "https://fortune710.github.io/restaurant/man.4945da9c8f4241e960d2.jpg": "955325d6223756d507d51d24a48b6c6679d548c1",
     "https://fortune710.github.io/restaurant/manifest.webmanifest": "643ab40efc820ab5c5bdb51f6a33988e155386e6",
     "https://fortune710.github.io/restaurant/polyfills.a284e576d19f21a8b987.js": "8e81027ed4339b7fbb793c9ac1a86a2987d933b2",
     "https://fortune710.github.io/restaurant/runtime.3f48f0bed43b3294b194.js": "7786ad61d600bef6c398b30c65de2766fdd53e6e",
-    "https://fortune710.github.io/restaurant/styles.21c40b4c35b03eb61346.css": "5d40a5975b98e0345be0e44d4a316b4470f75c3c"
+    "https://fortune710.github.io/restaurant/styles.2be2b212c53a3ba48792.css": "6751cc504c48770d9fc3e6f53b0e3c0a89b087a1"
   },
   "navigationUrls": [
     {
