@@ -1,1 +1,55 @@
-<p>item-page works!</p>
+<app-navbar></app-navbar>
+<main>
+    <section class="food-item">
+        <div class="food-img">
+            <img [src]="selectedItem.url">
+        </div>
+        <div class="food-message">
+            <span>
+                <h2>{{selectedItem.name}}</h2>
+    
+                <p>{{selectedItem.description}}</p>
+            </span>
+            
+            <div style="display:flex;width:100%;gap:6em;">
+                <span class="detail">
+                    <h5>Price per unit</h5>
+                    <p>{{selectedItem.price}}</p>
+                </span>
+                <span class="detail">
+                    <h5>Calories</h5>
+                    <p>{{selectedItem.calories}} KCal</p>
+                </span>
+            </div>
+            
+            <div style="display:flex;width:100%;gap:6em;">
+                <button class="btn btn-lg btn-primary">
+                    <span>
+                        <fa-icon [icon]="cart"></fa-icon>
+                    </span>
+                    <h4>Add to Cart</h4>
+                </button>
+
+                <button class="btn btn-lg btn-secondary">
+                    <span>
+                        <fa-icon [icon]="bag"></fa-icon>
+                    </span>
+                    <h4>Buy Now</h4>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section style="margin-top: 10px;" class="recipes" id="reccomendations">
+
+
+        <div class="header">
+            <h2>People also viewed</h2>
+            <p>See All</p>
+        </div>
+        <div class="cards">
+            <card *ngFor="let item of alsoSearched" [item]="item"></card>
+        </div>
+    </section>
+
+</main>

@@ -1,31 +1,9 @@
-<header>
-    <nav>
-        <h1>Munch<span class="logo">Town</span></h1>
-        
-        <ul class="links">
-            <li class="item">
-                <a href="index.html" style="color: var(--orange);">Home</a>
-            </li>
-            <li class="item">
-                <a href="products.html">Products</a>
-            </li>
-        </ul>
-
-        <label class="switch">
-            <input type="checkbox">
-            <span class="slider round"></span>
-        </label>
-
-        <div class="btn-cart">
-            <i class="fas fa-cart"></i>
-        </div>
-    </nav>
-</header>
+<app-navbar></app-navbar>
 <main>
     <section class="landing" id="landing">
         <div class="text">
             <h1>It's not just food,<br> 
-                it's <span class="animate-text"></span>
+                it's <span class="animate-text animate__fadeInDown">{{selectedWord}}</span>
             </h1>
 
             <button class="btn btn-lg btn-primary">
@@ -43,108 +21,59 @@
             <h2>These are everyone's favourites</h2>
             <p>Explore More Recipes</p>
         </div>
+
         <div class="cards">
-            <div class="card">
-                <img src="assets/images/steak-fries.jpg">
-                <div class="card-content">
-                    <h2 class="food-name">
-                        Classic BBQ Steak with Fries
-                    </h2>
-                    <div class="card-actions">
-                        <h3 class="price">
-                            <span>&#8358;</span> 5,500
-                        </h3>
-                        <span class="actions">
-                            <i class="far fa-heart" id="btn-like"></i>
-
-                            <button class="btn btn-primary btn-sm" id="btn-add">
-                                <i class="fas fa-cart-plus"></i>                                
-                            </button>
-                        </span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="assets/images/burger.jpg">
-                <div class="card-content">
-                    <h2 class="food-name">
-                        Full Burger with quarter ounce Fries
-                    </h2>
-                    <div class="card-actions">
-                        <h3 class="price">
-                            <span>&#8358;</span> 3,000
-                        </h3>
-                        <span class="actions">
-                            <i class="far fa-heart" id="btn-like"></i>
-
-                            <button class="btn btn-primary btn-sm">
-                                <i class="fas fa-cart-plus"></i>                                
-                            </button>
-                        </span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="assets/images/waffles.jpg">
-                <div class="card-content">
-                    <h2 class="food-name">
-                        Glazed Waffles with Fruit Toppings
-                    </h2>
-                    <div class="card-actions">
-                        <h3 class="price">
-                            <span>&#8358;</span> 2,700
-                        </h3>
-                        <span class="actions">
-                            <i class="far fa-heart" id="btn-like"></i>
-
-                            <button class="btn btn-primary btn-sm">
-                                <i class="fas fa-cart-plus"></i>                                
-                            </button>
-                        </span>
-                    </div>
-                </div>
-            </div>
-
-
-
+            <card *ngFor="let item of foodItems" [item]="item"></card>
         </div>
     </section>
 
-    <section>
+    <section class="instruction-section">
+        <div class="header">
+            <h2>Don't know how to order?</h2>
+        </div>
 
-    </section>
-
-    <section class="testimonials">
-        <div class="testimonial testimonial-1">
-            <div class="img" id="testimonial-1"></div>
-            <div class="message">
+        <div class="instructions">
+            <div>
+                <fa-icon [icon]="burger"></fa-icon>
                 <p>
-                    “Such delicious food delivered at my doorstep 
-                    without me having to worry. I’m definetely doing this again”
+                    Select the food 
+                    item you want to order, along with the quantity.
                 </p>
-                <h3>Fortune Alebiosu</h3>
             </div>
-        </div>
-
-        <div class="testimonial">
-            <div class="img" id="testimonial-2"></div>
-            <div class="message">
+    
+            <div>
+                <fa-icon [icon]="pin"></fa-icon>
                 <p>
-                    “MunchTown’s calorie counter allowed me to keep track of 
-                    my calorie intake, while enjoying delicious food. Simply Spectacular”
+                    Enter the address of      
+                    where you want the food to be delivered to.
                 </p>
-                <h3>David Smith</h3>
+            </div>
+
+            <div>
+                <fa-icon [icon]="card"></fa-icon>
+                <p>
+                    Pay for your food via our 
+                    secure payment platform. 
+                </p>
+    
             </div>
         </div>
-    </section>
 
+    </section>
+    
+    <app-testimonials></app-testimonials>
     
 </main>
+<app-fab></app-fab>
 <footer>
     <h4>©2021 MunchTown Foods</h4>
     <ul class="footer-links">
+        <li class="social">
+            <i class="fas fa-phone"></i>
+        </li>
+        <li class="social">
+            <i class="fas fa-envelope"></i>
+        </li>
         <li class="social">
             <i class="fab fa-facebook"></i>
         </li>
@@ -158,6 +87,8 @@
             <i class="fab fa-youtube"></i>
         </li>
     </ul>
+
+    <ion-icon name="facebook"></ion-icon>
 
 </footer>
 

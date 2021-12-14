@@ -1,1 +1,22 @@
-<p>products-page works!</p>
+<app-navbar></app-navbar>
+<section style="margin-top: 10px;" class="recipes" id="breakfast">
+    <div class="header">
+        <h2>First Meal of the Day</h2>
+        <p>See All</p>
+    </div>
+
+    <div class="cards">
+        <card *ngFor="let food of breakfast" [item]="food"></card>
+    </div>
+</section>
+
+<section style="margin-top: 10px;" class="recipes">
+    <div class="header">
+        <h2>How about some lunch?</h2>
+        <p>See All</p>
+    </div>
+
+    <div class="cards">
+        <card *ngFor="let food of lunch" [item]="food"></card>
+    </div>
+</section>

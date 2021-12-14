@@ -1,0 +1,96 @@
+.cart-content{
+    display: grid;
+    grid-template-columns: 65% 35%;
+    height: 500px;
+}
+
+.header h3{
+    color: #091327;
+    font-weight: bold;
+}
+
+.payment-delivery{
+    display: grid; 
+    grid-template-rows: 40% 60%;
+}
+
+label{
+    font-weight: lighter;
+    color: #091327;
+}
+
+.container{
+    height: 100%;
+    width: 96%;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.container-vertical{
+    height: 83% !important;
+}
+
+.badge{
+    background-color: #091327;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.num{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.item{
+    width: 100%;
+    height: 9.75em;
+    padding: 10px;
+}
+
+.image{
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.input-group{
+    display: flex;
+    margin: 0.1em 0;
+}
+input{
+    border: 1px solid grey;
+    height: 40px;
+    padding: 0 10px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+#online, #on-delivery{
+    height: auto;
+}
+
+.card-num{
+    width: 50%;
+}
+#btn-submit{
+    height: 40px;
+
+}

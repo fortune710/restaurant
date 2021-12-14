@@ -1,0 +1,20 @@
+<div class="card">
+    <img [src]="foodItem.url" (click)="buyNow(foodItem)">
+    <div class="card-content">
+        <h2 class="food-name" (click)="buyNow(foodItem)">
+            {{foodItem.name}}
+        </h2>
+        <div class="card-actions">
+            <h3 class="price">
+                <span>&#8358;</span> {{foodItem.price}}
+            </h3>
+            <span class="actions">
+                <fa-icon [icon]="heart"></fa-icon>
+
+                <button class="btn btn-primary btn-sm" (click)="addToCart(foodItem)">
+                    <fa-icon [icon]="cart"></fa-icon>
+                </button>
+            </span>
+        </div>
+    </div>
+</div>

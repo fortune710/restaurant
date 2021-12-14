@@ -1,1 +1,86 @@
-<p>cart-page works!</p>
+<main>
+
+    <div class="header">
+        <h2>Your Cart</h2>
+        <i></i>
+    </div>
+    <div class="cart-content">
+        <div class="payment-delivery">
+
+            <div class="container container-vertical" id="payment">
+                <div class="header">
+                    <h3>Your Address</h3>
+                    <div class="badge">
+                        <h6 class="num">2</h6>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--Payment Information-->
+            <div class="container" id="delivery">
+                <div class="header">
+                    <h3>Payment Information</h3>
+                    <div class="badge">
+                        <h6 class="num">3</h6>
+                    </div>
+                </div>
+
+                <form method="post">
+
+                    <div class="input-group">
+                        <input type="radio" name="payment" id="online">
+                        <label for="online">Pay Online</label>
+
+                        <input type="radio" name="payment" id="on-delivery">
+                        <label for="on-delivery">Pay on Delivery</label>
+                    </div>
+
+                    <label class="card-details" for="card-num">Card Number</label><br>
+                    <input class="card-num" type="text" name="card-num" placeholder="xxxx-xxxx-xxxx-xxxx-xxxx">
+                    
+                    <div class="input-group">
+                        <div class="input-group">
+                            <div>
+                                <label class="card-details" for="card-month">Month</label><br>
+                                <input type="number" name="card-month" placeholder="MM">
+                            </div>
+
+                            <div>
+                                <label class="card-details" for="card-year">Year</label><br>
+                                <input type="number" name="card-year" placeholder="YYYY">
+                            </div>  
+                        </div>
+                        
+                        <div>
+                            <label class="card-details" for="card-cvv">CVV</label><br>
+                            <input type="number" name="card-cvv" id="cvv" placeholder="xxx">
+                        </div>
+                        <div>
+                            <button class="btn btn-md btn-secondary" id="btn-submit">abwhvagh</button>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+        <!--Your Cart Section-->
+        <div>
+            <div class="container">
+                <div class="header">
+                    <h3>Your Order</h3>
+                    <div class="badge">
+                        <h6 class="num">1</h6>
+                    </div>
+                </div>
+
+                <ul id="cart">
+
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    
+</main>

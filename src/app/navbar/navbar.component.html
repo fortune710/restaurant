@@ -1,0 +1,19 @@
+<header>
+    <nav>
+        <h1>Munch<span class="logo">Town</span></h1>
+        
+        <ul class="links">
+            <li class="item">
+                <a href="index.html" style="color: var(--orange);">Home</a>
+            </li>
+            <li class="item" routerLink="/products" routerLinkActive="active">Products</li>
+        </ul>
+
+        
+        <div routerLink="../your-cart" style="position:relative">
+            <fa-icon class="cart-btn" [icon]="cart"></fa-icon>
+            <div class="badge cart-badge">{{cartNumber}}</div>
+        </div>
+    </nav>
+</header>
+

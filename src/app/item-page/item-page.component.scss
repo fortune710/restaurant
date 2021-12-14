@@ -1,0 +1,112 @@
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.food-item{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.detail{
+    p{
+        color:#FB7B04;
+    }
+}
+
+button{
+    height: 60px;
+    justify-content: flex-start;
+    gap: 2em;
+
+    h4{
+        font-family: 'Nunito Sans';
+        font-size: 20px;
+    }
+    span{
+        aspect-ratio: 1;
+        border-radius:10px;
+        height: 85%;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        -webkit-border-radius:10px;
+        -moz-border-radius:10px;
+        -ms-border-radius:10px;
+        -o-border-radius:10px;
+
+        fa-icon{
+            font-size: 100%;
+        }
+    }
+}
+
+.btn-primary{
+    span{
+        background-color: #A54F00;
+    }
+}
+
+.btn-secondary{
+    span{
+        background: #1B2437;
+    }
+}
+.food-message{
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    h2{
+        font-size: 2.5em;
+        margin-bottom: 1em;
+    }
+
+    p{
+        font-size: 0.9375em;
+        margin-bottom: 1em;
+    }
+}
+
+@media (max-width:500px) {
+    header{
+        display: none;
+    }
+
+    main{
+        padding: 0;
+    }
+
+    img{
+        border-radius: 0 0 7px 7px;
+        -webkit-border-radius: 0 0 7px 7px;
+        -moz-border-radius: 0 0 7px 7px;
+        -ms-border-radius: 0 0 7px 7px;
+        -o-border-radius: 0 0 7px 7px;
+}
+    .food-item{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cards{
+        gap: 1em;
+        flex-direction: column;
+    }
+
+    .food-message{
+
+        h2{
+            font-size: 1.8em;
+            margin: 0.3em 0;
+            padding: 0 0.2em;        
+        }
+
+        p{
+            padding: 0 0.2em;        
+            font-size: 0.7375em;
+        }
+    }
+}

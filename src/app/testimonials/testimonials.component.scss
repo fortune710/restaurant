@@ -1,0 +1,121 @@
+.testimonials{
+    display: grid;
+    width: 100%;
+    grid-template-rows: auto;
+    row-gap: 2em;
+    margin: 80px 0;
+}
+
+.testimonial{
+    width: 55%;
+    height: 250px;
+    padding: 0 1.1875em;
+    border-radius:700px;
+    -webkit-border-radius:700px;
+    -moz-border-radius:700px;
+    -ms-border-radius:700px;
+    -o-border-radius:700px;
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+.testimonial-1{
+    margin-left: auto;
+}
+
+.img{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 13.1875em;
+    height: 13.1875em;
+
+}
+
+.message{
+    width: 53%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.message p{ 
+    font-size: 22px; 
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: lighter;
+}
+.message h2{ font-size:30px }
+
+.heading h2{ 
+    font-size: 40px;
+    font-weight: bold;
+}
+
+p{
+    font-size: 1.575em;
+    font-weight: lighter;
+}
+
+#testimonial-1{
+    background-image:url('../../assets/images/IMG_4828.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#testimonial-2{
+    background-size: cover;
+    background-position: center;
+    background-image:url('../../assets/images/man.jpg')
+}
+
+@media screen and (max-width: 500px){
+    .testimonial-1{
+        margin: 0;
+    }
+
+    .testimonial{
+        flex-direction: column;
+        width: 95%;
+        height: 450px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        padding-top: 20px;
+    }       
+
+    .testimonials{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .message{
+        width: 100%;
+        text-align: center;
+        height: 40%
+    }
+
+    .heading  div{
+        width: 100% !important;
+        text-align: center;
+    }
+
+}
+
+@media screen and (prefers-color-scheme:light) {
+    .testimonial{
+        background-color: #fff;
+    }
+}
+
+@media screen and (prefers-color-scheme:dark) {
+    .testimonial{
+        background-color: #1B2437;
+    }
+}
